@@ -32,11 +32,11 @@ a {
 }
 .welcome {
   margin-top: 48px;
+  margin-left: 260px;
   width: 100%;
   text-align: center;
   vertical-align: middle;
   background: #282828;
   display: block;
-  position: absolute;
 }
 </style>
