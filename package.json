@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "bundle exec jekyll build & webpack --mode development --watch",
-    "build": "bundle exec jekyll build & webpack --mode production"
+    "dev": "webpack --mode development --watch & bundle exec jekyll build",
+    "build": "webpack --mode production & bundle exec jekyll build"
   },
   "dependencies": {
     "core-js": "^3.6.5",

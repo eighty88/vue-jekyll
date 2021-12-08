@@ -33,7 +33,7 @@ a {
 .welcome {
   margin-top: 48px;
   margin-left: 260px;
-  width: 50vh;
+  width: calc(100% - 260px);
   padding: 25px;
   text-align: center;
   vertical-align: middle;
