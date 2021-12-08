@@ -31,10 +31,12 @@ a {
   color: #42b983;
 }
 .welcome {
+  margin-top: 48px;
   width: 100%;
-  height: 50px;
   text-align: center;
   vertical-align: middle;
   background: #282828;
+  display: block;
+  position: absolute;
 }
 </style>
