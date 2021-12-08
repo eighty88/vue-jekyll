@@ -26,13 +26,13 @@ jobs:
         with:
           path: "node_modules"
           key: client-yarn-${{ hashFiles('yarn.lock') }}
-      - run: yarn install
-        if: steps.client-yarn-cache.outputs.cache-hit != 'true'
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
           bundler-cache: true
+      - run: yarn install
+        if: steps.client-yarn-cache.outputs.cache-hit != 'true'
+      - run: bundle install
       - name: build
         run: |
           yarn build
