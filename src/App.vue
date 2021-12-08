@@ -1,5 +1,5 @@
 <template>
-  <Welcome msg="Welcome to Your Vue.js App"/>
+  <Welcome msg="This component is rendered in Vue.js"/>
 </template>
 
 <script>
@@ -20,6 +20,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  height: 50px;
 }
 </style>
