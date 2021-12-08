@@ -24,6 +24,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1.89.0
         with:
+          ruby-version: 3.0
           bundler-cache: true
       - uses: actions/cache@v2
         id: client-yarn-cache
