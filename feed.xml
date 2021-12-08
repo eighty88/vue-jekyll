@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>/vue-jekyll/</id>
+  <id>https://eighty88.github.io/vue-jekyll/</id>
   <title>Vue-Jekyll</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-12-08T20:38:20+09:00</updated>
+  <updated>2021-12-08T20:40:50+09:00</updated>
   <author>
     <name>your_full_name</name>
-    <uri>/vue-jekyll/</uri>
+    <uri>https://eighty88.github.io/vue-jekyll/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="/vue-jekyll/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://eighty88.github.io/vue-jekyll/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="ja"
-    href="/vue-jekyll/"/>
+    href="https://eighty88.github.io/vue-jekyll/"/>
   <generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator>
   <rights> © 2021 your_full_name </rights>
   <icon>/vue-jekyll/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Welcome to Jekyll!</title>
-    <link href="/vue-jekyll/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
+    <link href="https://eighty88.github.io/vue-jekyll/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
     <published>2021-12-07T21:14:00+09:00</published>
   
     <updated>2021-12-07T21:14:00+09:00</updated>
   
-    <id>/vue-jekyll/posts/welcome-to-jekyll/</id>
-    <content src="/vue-jekyll/posts/welcome-to-jekyll/" />
+    <id>https://eighty88.github.io/vue-jekyll/posts/welcome-to-jekyll/</id>
+    <content src="https://eighty88.github.io/vue-jekyll/posts/welcome-to-jekyll/" />
     <author>
       <name>your_full_name</name>
     </author>

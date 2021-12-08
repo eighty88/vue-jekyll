@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: /vue-jekyll/sitemap.xml
+Sitemap: https://eighty88.github.io/vue-jekyll/sitemap.xml
