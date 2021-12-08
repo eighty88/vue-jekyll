@@ -28,6 +28,11 @@ jobs:
           key: client-yarn-${{ hashFiles('yarn.lock') }}
       - run: yarn install
         if: steps.client-yarn-cache.outputs.cache-hit != 'true'
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+          bundler-cache: true
       - name: build
         run: |
           yarn build
@@ -36,4 +41,4 @@ jobs:
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          publish_dir: ./dist
