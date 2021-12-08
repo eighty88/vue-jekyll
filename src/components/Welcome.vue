@@ -33,6 +33,8 @@ a {
 .welcome {
   width: 100%;
   height: 50px;
+  text-align: center;
+  vertical-align: middle;
   background: #282828;
 }
 </style>
