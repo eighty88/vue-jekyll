@@ -162,6 +162,10 @@ exclude:
   - node_modules
   - package*.json
   - yarn.lock
+  - public
+  - src
+  - babel.config.js
+  - webpack.config.js
 
 jekyll-archives:
   enabled: [categories, tags]

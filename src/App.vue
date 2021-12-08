@@ -1,5 +1,5 @@
 <template>
-  <Welcome msg="This component is rendered in Vue.js"/>
+  <Welcome msg="This component is rendered in Vue 3!!"/>
 </template>
 
 <script>
