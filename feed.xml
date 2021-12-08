@@ -4,7 +4,7 @@
   <id>/vue-jekyll/</id>
   <title>Vue-Jekyll</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-12-08T20:35:20+09:00</updated>
+  <updated>2021-12-08T20:38:20+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>/vue-jekyll/</uri>
@@ -14,8 +14,8 @@
     href="/vue-jekyll/"/>
   <generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator>
   <rights> © 2021 your_full_name </rights>
-  <icon>vue-jekyll/assets/img/favicons/favicon.ico</icon>
-  <logo>vue-jekyll/assets/img/favicons/favicon-96x96.png</logo>
+  <icon>/vue-jekyll/assets/img/favicons/favicon.ico</icon>
+  <logo>/vue-jekyll/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
