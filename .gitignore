@@ -6,4 +6,4 @@ vendor
 Gemfile.lock
 
 node_modules
-dist
+/dist/
