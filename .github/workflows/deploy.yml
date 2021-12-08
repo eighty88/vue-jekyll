@@ -21,15 +21,15 @@ jobs:
             CLIENT_BASE_PATH="/$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')"
           fi
           echo "CLIENT_BASE_PATH=$CLIENT_BASE_PATH" >> $GITHUB_ENV
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
       - uses: actions/cache@v2
         id: client-yarn-cache
         with:
           path: "node_modules"
           key: client-yarn-${{ hashFiles('yarn.lock') }}
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          bundler-cache: true
       - run: yarn install
         if: steps.client-yarn-cache.outputs.cache-hit != 'true'
       - run: bundle install
