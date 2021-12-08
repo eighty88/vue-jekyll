@@ -22,7 +22,7 @@ jobs:
           fi
           echo "CLIENT_BASE_PATH=$CLIENT_BASE_PATH" >> $GITHUB_ENV
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@v1.89.0
         with:
           bundler-cache: true
       - uses: actions/cache@v2
