@@ -1,4 +1,4 @@
-title: Your awesome title
+title: Vue-Jekyll
 email: your-email@example.com
 description: >-
   Write an awesome description for your new site here. You can edit this
@@ -8,6 +8,8 @@ baseurl: ""
 url: ""
 twitter_username: jekyllrb
 github_username:  jekyll
+
+destination: ./dist
 
 theme: minima
 exclude: [

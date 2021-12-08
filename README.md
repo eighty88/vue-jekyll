@@ -6,9 +6,18 @@ yarn install
 bundle install
 ```
 
-### Compiles and minifies for production
+## Compiles and minifies for production
 ```
 yarn build
+```
+
+### Version
+```
+Vue CLI 4.5.15
+
+jekyll 4.2.1
+
+Vue 3.0.0
 ```
 
 ### Customize configuration

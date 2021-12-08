@@ -1,5 +1,4 @@
 const path = require("path")
-const HTMLWebpackPlugin = require("html-webpack-plugin")
 const { VueLoaderPlugin } = require("vue-loader")
 
 module.exports = {
@@ -7,7 +6,7 @@ module.exports = {
         index: path.join(__dirname, "src", "main.js"),
     },
     output: {
-        filename: "../_site/js/bundle.js"
+        filename: "./js/bundle.js"
     },
     module: {
         rules: [
@@ -21,7 +20,7 @@ module.exports = {
                     {
                         loader: 'file-loader',
                         options: {
-                            name: '../_site/images/[name].[ext]'
+                            name: './images/[name].[ext]'
                         }
                     }
                 ],
@@ -36,11 +35,6 @@ module.exports = {
         ]
     },
     plugins: [
-        new HTMLWebpackPlugin({
-            template: path.resolve(__dirname, "_site", "index.html"),
-            inject: "head",
-            filename: "../_site/index.html"
-        }),
         new VueLoaderPlugin()
     ]
 }
