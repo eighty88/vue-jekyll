@@ -1,43 +1,43 @@
 const resource = [
 
   /* --- CSS --- */
-  '/assets/css/style.css',
+  '/vue-jekyll/assets/css/style.css',
 
   /* --- JavaScripts --- */
   
-  '/assets/js/dist/home.min.js',
-  '/assets/js/dist/page.min.js',
-  '/assets/js/dist/post.min.js',
-  '/assets/js/dist/categories.min.js',
-  '/assets/js/data/search.json',
-  '/app.js',
-  '/sw.js',
+  '/vue-jekyll/assets/js/dist/home.min.js',
+  '/vue-jekyll/assets/js/dist/page.min.js',
+  '/vue-jekyll/assets/js/dist/post.min.js',
+  '/vue-jekyll/assets/js/dist/categories.min.js',
+  '/vue-jekyll/assets/js/data/search.json',
+  '/vue-jekyll/app.js',
+  '/vue-jekyll/sw.js',
 
   /* --- HTML --- */
-  '/index.html',
-  '/404.html',
+  '/vue-jekyll/index.html',
+  '/vue-jekyll/404.html',
   
-    '/categories/',
+    '/vue-jekyll/categories/',
   
-    '/tags/',
+    '/vue-jekyll/tags/',
   
-    '/archives/',
+    '/vue-jekyll/archives/',
   
-    '/about/',
+    '/vue-jekyll/about/',
   
 
   /* --- Favicons --- */
   
 
-  '/assets/img/favicons/android-chrome-192x192.png',
-  '/assets/img/favicons/android-chrome-512x512.png',
-  '/assets/img/favicons/apple-touch-icon.png',
-  '/assets/img/favicons/favicon-16x16.png',
-  '/assets/img/favicons/favicon-32x32.png',
-  '/assets/img/favicons/favicon.ico',
-  '/assets/img/favicons/mstile-150x150.png',
-  '/assets/img/favicons/site.webmanifest',
-  '/assets/img/favicons/browserconfig.xml'
+  '/vue-jekyll/assets/img/favicons/android-chrome-192x192.png',
+  '/vue-jekyll/assets/img/favicons/android-chrome-512x512.png',
+  '/vue-jekyll/assets/img/favicons/apple-touch-icon.png',
+  '/vue-jekyll/assets/img/favicons/favicon-16x16.png',
+  '/vue-jekyll/assets/img/favicons/favicon-32x32.png',
+  '/vue-jekyll/assets/img/favicons/favicon.ico',
+  '/vue-jekyll/assets/img/favicons/mstile-150x150.png',
+  '/vue-jekyll/assets/img/favicons/site.webmanifest',
+  '/vue-jekyll/assets/img/favicons/browserconfig.xml'
 
 ];
 
