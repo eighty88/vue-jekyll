@@ -1,6 +1,6 @@
 self.importScripts('/vue-jekyll/assets/js/data/swcache.js');
 
-const cacheName = 'chirpy-20211208.2249';
+const cacheName = 'chirpy-20211209.1847';
 
 function verifyDomain(url) {
   for (const domain of allowedDomains) {
